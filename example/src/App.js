@@ -1,10 +1,15 @@
 import React from 'react'
 
-import { ExampleComponent } from 'cutetons'
+import { Button } from 'cutetons'
 import 'cutetons/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+    <Button type="dashed" text="Yeni Button"></Button>
+    </>
+  )
+  
 }
 
 export default App
